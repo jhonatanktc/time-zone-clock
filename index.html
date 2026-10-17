@@ -1,0 +1,26 @@
+<!--
+(c) Jhonatan Kelvin Tsan Chang
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at https://www.mozilla.org/en-US/MPL/2.0/
+-->
+<!doctype html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="color-scheme" content="dark"/>
+        <meta name="description" content="這是個沒有分針和秒針的全新指針時鐘，因為每 15° 有 1 個時針，所以在同一個鐘面上總共有 24 個時針，每 24 小時逆時針轉 1 圈，且代表太陽的「12 點」固定在正上方。"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <script type="module" src="./script.js"></script>
+        <title>Time Zone Clock</title>
+    </head>
+    <body>
+        <div id="analog-clock">
+            <canvas id="face" width="1000" height="1000"></canvas>
+            <canvas id="hands" width="1000" height="1000"></canvas>
+        </div>
+        <div id="digital-clock"></div>
+        <div id="license-info">Created by Jhonatan Kelvin. Licensed under the MPL 2.0.</div>
+    </body>
+</html>
