@@ -1,7 +1,7 @@
 # Time Zone Clock
 
-[https://jhonatanktc.github.io/time-zone-clock/index.html](https://jhonatanktc.github.io/time-zone-clock/index.html)
+[https://jhonatanktc.github.io/time-zone-clock/](https://jhonatanktc.github.io/time-zone-clock/)
 
 Created by Jhonatan Kelvin. Licensed under the MPL 2.0.
 
-這是個沒有分針和秒針的全新指針時鐘，因為每 15° 有 1 個時針，所以在同一個鐘面上總共有 24 個時針，每 24 小時逆時針轉 1 圈，代表各個時區。且正午固定在正上方。
+本時鐘分為鐘面層和時針層。鐘面層靜止不動，標示 00 至 23 的小時刻度；時針層有 24 個時針，以 24 分之 1 turn 為間隔，標示 -12 至 +12 的時區偏移量，以逆時針方向每 24 小時旋轉一圈。
