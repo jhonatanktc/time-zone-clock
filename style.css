@@ -39,6 +39,7 @@ body {
 }
 
 #digital-clock {
+    letter-spacing: 1px;
     grid-area: digital;
     place-self: center;
     white-space: pre-wrap;

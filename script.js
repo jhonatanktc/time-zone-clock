@@ -87,7 +87,9 @@ const update = function() {
             500 + 240 * -Math.sin((timezone + utcNow.hour + utcNow.minute / 60) * twentyFourthTurn - fourthTurn)
         );
     }
-    digitalClockElm.textContent = `${utcNow.toString(options)} 週 ${utcNow.dayOfWeek}\n${localNow.toString(options)} 週 ${localNow.dayOfWeek}`;
+    digitalClockElm.textContent =
+        utcNow.toString(options) + '     1=Mon to 7=Sun dayOfWeek ' + utcNow.dayOfWeek + '\n' +
+        localNow.toString(options) + ' dayOfWeek ' + localNow.dayOfWeek;
 };
 
 update();

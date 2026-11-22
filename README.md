@@ -1,13 +1,9 @@
 # Time Zone Clock
 
-[https://jhonatanktc.github.io/time-zone-clock/](https://jhonatanktc.github.io/time-zone-clock/)
+這是個全球時區都在同一個鐘面上的指針時鐘，從北極上空看地球自轉。
 
-Created by Jhonatan Kelvin. Licensed under the MPL 2.0.
+GitHub Pages: [https://jhonatanktc.github.io/time-zone-clock/](https://jhonatanktc.github.io/time-zone-clock/)
 
-Time Zone Clock 是個基於「北極上空視角」而設計的時鐘：
+License: MPL 2.0
 
-- 每 24 小時轉一圈
-- 逆時針
-- 每個時區的時間一目了然
-
-基於 HTML, CSS, JS 和 Canvas。
+Created by Jhonatan Kelvin.
